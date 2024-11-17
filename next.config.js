@@ -4,7 +4,14 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ["images.ctfassets.net"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.ctfassets.net",
+        port: "", // Optional: specify port if needed
+        pathname: "/**", // Optional: specify paths if needed
+      },
+    ],
   },
 };
 

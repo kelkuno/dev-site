@@ -13,12 +13,12 @@ export default async function BlogPostPage({ params }) {
     <div>
       <h2>dynamic blog post data</h2>
       <p>hello fetch blog post data: {content.title}</p>
-      {/* <Image
+      <Image
         src={coverImage.url}
         alt={coverImage.description}
         width={coverImage.width}
         height={coverImage.height}
-      /> */}
+      />
     </div>
   );
 }

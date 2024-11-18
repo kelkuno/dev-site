@@ -12,11 +12,10 @@ const BlogPage = async () => {
   return (
     <div>
       <h2>blog page</h2>
-      <p>new edits{blogs[0]._id}</p>
       <ul>
         {blogs.map((blog) => (
           <li key={blog._id}>
-            <Link href={blog._id}>{blog._id}</Link>
+            <Link href={`/blog/${blog.slug}`}>{blog.title}</Link>
             <Image
               src={blog.imageCollection.items[0].url}
               alt={blog.imageCollection.items[0].description}

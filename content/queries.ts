@@ -1,6 +1,26 @@
 import "server-only";
 import { contentGQLQuery } from "./fetch";
-import { BlogPostQuery, BlogPostListQuery } from "@/types";
+import { BlogPostQuery, BlogPostListQuery, BlogSlugQuery } from "@/types";
+
+export const getAllBlogSlugs = async () => {
+  const query = `#graphql
+ query BlogPostCollection {
+  blogPostCollection {
+    items {
+      slug
+    }
+  }
+} 
+  `;
+
+  const data = await contentGQLQuery<BlogSlugQuery>({
+    query,
+  });
+  if (!data) {
+    throw new Error("oops");
+  }
+  return data;
+};
 
 export const getAllBlogPosts = async () => {
   const query = `#graphql

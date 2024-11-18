@@ -1,3 +1,11 @@
+export type BlogSlugQuery = {
+  blogPostCollection: {
+    items: {
+      slug: string;
+    }[];
+  };
+};
+
 export type BlogPostListQuery = {
   blogPostCollection: {
     items: {

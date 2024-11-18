@@ -1,5 +1,10 @@
-import { getContentForBlogPost } from "@/content/queries";
+import { getContentForBlogPost, getAllBlogSlugs } from "@/content/queries";
 import Image from "next/image";
+
+export const generateStaticParams = async () => {
+  const slugData = await getAllBlogSlugs();
+  return slugData.blogPostCollection.items;
+};
 
 export default async function BlogPostPage({ params }) {
   const data = await getContentForBlogPost(params.slug);

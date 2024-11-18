@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
               {links.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href}>{link.label}</Link>
+                  <Image></Image>
                 </li>
               ))}
             </ul>

@@ -2,20 +2,10 @@ import { getAllBlogPosts } from "@/content/queries";
 import Link from "next/link";
 import Image from "next/image";
 
-// export const generateStaticParams = async () => {
-//   // const data = await getAllBlogPosts();
-//   // return data.blogPostCollection.items;
-// };
-
 const BlogPage = async () => {
   const data = await getAllBlogPosts();
   const blogs = data.blogPostCollection.items;
-  const testData = blogs[0];
-  const slugs = blogs;
-  console.log("slug", slugs);
-  // console.log("data:", data);
-  // console.log("blogs:", blogs);
-  // console.log("testdata", testData);
+
   return (
     <div>
       <h2>blog page</h2>

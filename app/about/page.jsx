@@ -6,7 +6,14 @@ const AboutPage = () => {
       <h3>This is Heading 3</h3>
       <h4>This is Heading 4</h4>
       <h5>This is Heading 5</h5>
-      <h6>This is Heading 6</h6>
+      <p className="date">This is date</p>
+      <p className="sml-title">This is small title</p>
+      <div>
+        <a className="primary-link" href="#">
+          Learn more
+        </a>
+      </div>
+      <button className="primary-btn">Download</button>
       <p>
         This is a paragraph. Lorem ipsum dolor sit, amet consectetur adipisicing
         elit. Quisquam, pariatur.

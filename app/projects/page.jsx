@@ -1,7 +1,5 @@
 import styles from "./page.module.css";
 
-console.log("hello");
-
 const ProjectPage = () => {
   return (
     <div className="container">

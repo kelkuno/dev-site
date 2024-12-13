@@ -9,8 +9,9 @@ export default function Home() {
           <Image
             src="/images/website-greeting.svg"
             alt="Handwritten note saying, Hello. My name is Kelsey"
-            width={180}
-            height={37}
+            className={styles.greeting}
+            width={251}
+            height={80}
             priority
           />
           <h2>I am a creative developer amet, consectetuer adipiscing elit.</h2>

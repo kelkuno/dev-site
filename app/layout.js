@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import "./globals.css";
 import { Inter, Nunito_Sans, Josefin_Sans } from "next/font/google";
+import MainNav from "@/components/MainNav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,13 +25,6 @@ export const metadata = {
   description: "Kelsey Kuno's developer and designer portfolio",
 };
 
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/projects", label: "Projects" },
-  { href: "/blog", label: "Blog" },
-];
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -38,16 +32,9 @@ export default function RootLayout({ children }) {
         className={`${nunito_sans_init.variable} ${josefin_sans_init.variable}`}
       >
         <header>
-          <nav>
-            <ul>
-              {links.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href}>{link.label}</Link>
-                  <Image></Image>
-                </li>
-              ))}
-            </ul>
-          </nav>
+          <div className="container">
+            <MainNav />
+          </div>
         </header>
         <div>{children}</div>
       </body>

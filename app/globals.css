@@ -67,6 +67,7 @@ h5 {
   font-family: var(--font-josefin_sans);
   margin: 0;
   padding: 0;
+  margin-block: 0;
 }
 h1 {
   font-size: 5.61rem;
@@ -76,7 +77,6 @@ h1 {
 h2 {
   font-size: 3.1575rem;
   line-height: 3rem;
-  margin: 2rem 0;
 }
 h3 {
   font-size: 2.368rem;
@@ -142,6 +142,23 @@ section {
   line-height: 1rem;
   color: var(--gray);
 }
+
+/* Main nav styling  */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-nav {
+  border: 1px solid green;
+}
+.main-nav ul {
+  list-style: none;
+}
+
+.main-nav--logo {
+  border: solid 2px purple;
+}
+
 .container {
   width: 80%;
   max-width: 1200px;
@@ -151,9 +168,17 @@ section {
 .row {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
   gap: 1rem;
 }
+.align-content-center {
+  align-content: center;
+  font-weight: bold;
+}
+.align-items-center {
+  align-items: center;
+}
+
 .grid {
   background-image: linear-gradient(
       var(--light-gray) 0.0625rem,

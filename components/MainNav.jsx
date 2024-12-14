@@ -12,28 +12,40 @@ const links = [
 ];
 
 const MainNav = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+    console.log(isOpen);
+  };
+
   return (
-    <div className="container">
-      <div className="row align-items-center">
-        <Image
-          src="/images/k-logo.svg"
-          alt="Kelsey Kuno logo"
-          className="main-nav--logo"
-          width={26}
-          height={32}
-          priority
-        />
-        <nav className="main-nav">
-          <ul className="row">
-            {links.map((link) => (
-              <li key={link.href}>
-                <Link href={link.href}>{link.label}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-        <button className="hamburger">Hamburger</button>
-      </div>
+    <div className="main-nav">
+      <Image
+        src="/images/k-logo.svg"
+        alt="Kelsey Kuno logo"
+        className="main-nav--logo"
+        width={26}
+        height={32}
+        priority
+      />
+      <nav>
+        <ul className="row">
+          {links.map((link) => (
+            <li key={link.href}>
+              <Link href={link.href}>{link.label}</Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      <button
+        onClick={toggleMenu}
+        className={isOpen ? "menu-btn active" : "menu-btn"}
+      >
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </button>
     </div>
   );
 };

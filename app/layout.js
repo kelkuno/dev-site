@@ -32,9 +32,7 @@ export default function RootLayout({ children }) {
         className={`${nunito_sans_init.variable} ${josefin_sans_init.variable}`}
       >
         <header>
-          <div className="container">
-            <MainNav />
-          </div>
+          <MainNav />
         </header>
         <div>{children}</div>
       </body>

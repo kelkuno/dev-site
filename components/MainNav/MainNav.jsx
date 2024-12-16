@@ -30,34 +30,36 @@ const MainNav = () => {
           : `${styles["main-nav"]}`
       }
     >
-      <Image
-        src="/images/k-logo.svg"
-        alt="Kelsey Kuno logo"
-        className="main-nav--logo"
-        width={26}
-        height={32}
-        priority
-      />
-      <nav className="primary-navigation" id="primary-navigation">
-        <ul className={styles.row} aria-label="Primary" role="list">
-          {links.map((link) => (
-            <li key={link.href}>
-              <Link onClick={closeNav} href={link.href}>
-                {link.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-      <button
-        onClick={toggleMenu}
-        className={styles["menu-btn"]}
-        aria-controls="primary-navigation"
-      >
-        <span className={styles.bar}></span>
-        <span className={styles.bar}></span>
-        <span className={styles.bar}></span>
-      </button>
+      <div className={styles["nav-wrapper"]}>
+        <Image
+          src="/images/k-logo.svg"
+          alt="Kelsey Kuno logo"
+          className="main-nav--logo"
+          width={26}
+          height={32}
+          priority
+        />
+        <nav className={styles["primary-navigation"]} id="primary-navigation">
+          <ul className={styles["nav-row"]} aria-label="Primary" role="list">
+            {links.map((link) => (
+              <li key={link.href}>
+                <Link onClick={closeNav} href={link.href}>
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <button
+          onClick={toggleMenu}
+          className={styles["menu-btn"]}
+          aria-controls="primary-navigation"
+        >
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+        </button>
+      </div>
     </div>
   );
 };

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import styles from "./MainNav.module.css";
 
 const links = [
   { href: "/", label: "Home" },
@@ -16,11 +17,19 @@ const MainNav = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    console.log(isOpen);
+  };
+  const closeNav = () => {
+    setIsOpen(false);
   };
 
   return (
-    <div className="main-nav">
+    <div
+      className={
+        isOpen
+          ? `${styles["main-nav"]} ${styles.active}`
+          : `${styles["main-nav"]}`
+      }
+    >
       <Image
         src="/images/k-logo.svg"
         alt="Kelsey Kuno logo"
@@ -29,22 +38,25 @@ const MainNav = () => {
         height={32}
         priority
       />
-      <nav>
-        <ul className="row">
+      <nav className="primary-navigation" id="primary-navigation">
+        <ul className={styles.row} aria-label="Primary" role="list">
           {links.map((link) => (
             <li key={link.href}>
-              <Link href={link.href}>{link.label}</Link>
+              <Link onClick={closeNav} href={link.href}>
+                {link.label}
+              </Link>
             </li>
           ))}
         </ul>
       </nav>
       <button
         onClick={toggleMenu}
-        className={isOpen ? "menu-btn active" : "menu-btn"}
+        className={styles["menu-btn"]}
+        aria-controls="primary-navigation"
       >
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
+        <span className={styles.bar}></span>
+        <span className={styles.bar}></span>
+        <span className={styles.bar}></span>
       </button>
     </div>
   );

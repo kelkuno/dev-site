@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import "./globals.css";
 import { Inter, Nunito_Sans, Josefin_Sans } from "next/font/google";
-import MainNav from "@/components/MainNav";
+import MainNav from "@/components/MainNav/MainNav";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -1,0 +1,43 @@
+/* Menu Button  */
+.menu-btn {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  display: none;
+}
+.bar {
+  width: 100%;
+  height: 0.25rem;
+  background-color: var(--black);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu-btn .bar:nth-child(1) {
+  top: 25%;
+}
+.menu-btn .bar:nth-child(3) {
+  top: 75%;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .menu-btn {
+    display: block;
+  }
+  .main-nav.active .menu-btn .bar:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .main-nav.active .menu-btn .bar:nth-child(2) {
+    display: none;
+  }
+  .main-nav.active .menu-btn .bar:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}

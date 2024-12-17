@@ -1,5 +1,5 @@
 :root {
-  --max-width: 1100px;
+  --max-width: 1200px;
   /* --border-radius: 12px; */
 
   /* Typography */
@@ -19,6 +19,14 @@
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  /* spacing */
+  --one-col: 6rem;
+  --two-col: 12rem;
+  --three-col: 18rem;
+  --four-col: 24rem;
+  --five-col: 30rem;
+  --six-col: 36rem;
 }
 
 * {
@@ -71,7 +79,7 @@ h5 {
 h1 {
   font-size: 5.61rem;
   line-height: 5rem;
-  margin: 5rem 0;
+  /* margin: 5rem 0; */
 }
 h2 {
   font-size: 3.1575rem;
@@ -97,6 +105,7 @@ a {
 p {
   font-size: 1rem;
   line-height: 1.75rem;
+  margin: 1rem 0;
 }
 img {
   max-width: 100%;
@@ -104,12 +113,10 @@ img {
 section {
   margin-bottom: 4rem;
 }
-/* nav {
-  background: var(--teal);
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-} */
+ul {
+  list-style: none;
+}
+
 .primary-link {
   text-transform: uppercase;
   font-weight: bold;
@@ -150,7 +157,7 @@ section {
 
 .container {
   width: 80%;
-  max-width: 1200px;
+  max-width: var(--max-width);
   /* border: solid 2px red; */
   margin: 0 auto;
 }
@@ -159,6 +166,9 @@ section {
   justify-content: space-between;
   /* margin: 2rem 0; */
   gap: 1rem;
+}
+.section-gap {
+  margin-bottom: 6rem;
 }
 .align-content-center {
   align-content: center;
@@ -204,6 +214,14 @@ section {
     font-size: 2.368rem;
     line-height: 2.75rem;
   }
+  .container {
+    width: 100%;
+    padding: 0 2rem;
+    /* border: solid 2px blue; */
+  }
+  .section-gap {
+    margin: 4rem 0;
+  }
 }
 
 /* Mobile */
@@ -231,5 +249,9 @@ section {
   .container {
     width: 100%;
     padding: 0 1rem;
+    /* border: solid 2px lime; */
+  }
+  .section-gap {
+    margin: 2rem 0;
   }
 }

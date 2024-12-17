@@ -1,7 +1,7 @@
 .hero {
   min-height: 85vh;
   border: solid 1px var(--light-gray);
-  padding: 6rem;
+  padding: var(--one-col);
 }
 
 /* Mobile */

@@ -20,7 +20,6 @@
   list-style: none;
   display: flex;
   gap: 2rem;
-  border: solid 2px lime;
 }
 /* __________________Navigation */
 /* mobile styles */
@@ -29,21 +28,25 @@
     width: 100%;
   }
   .nav-wrapper {
+    position: relative;
     align-items: flex-start;
-    /* padding: 1rem; */
+    padding: 1rem;
+    width: 100%;
   }
   .main-nav.active .nav-wrapper {
+    position: relative;
     height: 100vh;
     transition: 0.3s ease;
   }
   .primary-navigation {
-    border: solid 2px blue;
     position: absolute;
     width: 100%;
     height: 100vh;
     top: -100vh;
+    left: 0;
     opacity: 0;
     display: flex;
+    padding: 0;
   }
   .main-nav.active .primary-navigation {
     top: 0;

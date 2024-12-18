@@ -109,6 +109,7 @@ p {
 }
 img {
   max-width: 100%;
+  display: block;
 }
 section {
   margin-bottom: 4rem;
@@ -116,7 +117,13 @@ section {
 ul {
   list-style: none;
 }
-
+.copy-link {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.copy-link:hover {
+  color: var(--orange);
+}
 .primary-link {
   text-transform: uppercase;
   font-weight: bold;
@@ -150,10 +157,19 @@ ul {
   letter-spacing: 0.125rem;
   margin: 2rem 0;
 }
+.lg-title {
+  font-size: 1.33rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
 .date {
   font-size: 0.75rem;
   line-height: 1rem;
   color: var(--gray);
+}
+.skill {
+  color: var(--lilac);
 }
 
 .container {
@@ -170,7 +186,7 @@ ul {
   flex-wrap: wrap;
 }
 .col {
-  border: solid 2px blue;
+  /* border: solid 2px blue; */
   width: 30%;
 }
 .section-gap {
@@ -192,6 +208,7 @@ ul {
   background-size: 1rem 1rem;
 }
 /* helper classes  */
+
 .mt-1 {
   margin-top: 1rem;
 }

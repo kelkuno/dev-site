@@ -13,7 +13,7 @@
   --teal: #6bffdf;
   --lilac: #e1b4ff;
   --blue: #17029f;
-  --paper: rgb(255, 255, 240, 0.75);
+  --paper: #fffff0;
 
   /* fonts */
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -79,7 +79,7 @@ h5 {
 h1 {
   font-size: 5.61rem;
   line-height: 5rem;
-  /* margin: 5rem 0; */
+  margin: 3rem 0;
 }
 h2 {
   font-size: 3.1575rem;
@@ -148,6 +148,7 @@ ul {
   line-height: 1.125rem;
   text-transform: uppercase;
   letter-spacing: 0.125rem;
+  margin: 2rem 0;
 }
 .date {
   font-size: 0.75rem;
@@ -165,7 +166,12 @@ ul {
   display: flex;
   justify-content: space-between;
   /* margin: 2rem 0; */
-  gap: 1rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.col {
+  border: solid 2px blue;
+  width: 30%;
 }
 .section-gap {
   margin-bottom: 6rem;
@@ -218,6 +224,13 @@ ul {
     width: 100%;
     padding: 0 2rem;
     /* border: solid 2px blue; */
+  }
+  .row {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .col {
+    width: 47%;
   }
   .section-gap {
     margin: 4rem 0;

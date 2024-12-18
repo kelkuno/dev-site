@@ -35,9 +35,11 @@ export default function Home() {
             />
             <p className="date">October 27, 2024</p>
             <h5>The secret to designing logos and other wordly secrets.</h5>
-            <a className="primary-link" href="#">
-              Read More
-            </a>
+            <div>
+              <a className="primary-link" href="#">
+                Read More
+              </a>
+            </div>
           </div>
           <div className="col">
             <Image
@@ -49,9 +51,11 @@ export default function Home() {
             />
             <p className="date">October 27, 2024</p>
             <h5>The secret to designing logos and other wordly secrets.</h5>
-            <a className="primary-link" href="#">
-              Read More
-            </a>
+            <div>
+              <a className="primary-link" href="#">
+                Read More
+              </a>
+            </div>
           </div>
           <div className="col">
             <Image
@@ -63,9 +67,11 @@ export default function Home() {
             />
             <p className="date">October 27, 2024</p>
             <h5>The secret to designing logos and other wordly secrets.</h5>
-            <a className="primary-link" href="#">
-              Read More
-            </a>
+            <div>
+              <a className="primary-link" href="#">
+                Read More
+              </a>
+            </div>
           </div>
         </div>
       </section>

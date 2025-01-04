@@ -42,7 +42,7 @@ const MainNav = () => {
         <nav className={styles["primary-navigation"]} id="primary-navigation">
           <ul className={styles["nav-row"]} aria-label="Primary" role="list">
             {links.map((link) => (
-              <li key={link.href}>
+              <li key={link.href} className={styles["nav-link"]}>
                 <Link onClick={closeNav} href={link.href}>
                   {link.label}
                 </Link>

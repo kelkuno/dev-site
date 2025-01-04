@@ -21,6 +21,15 @@
   display: flex;
   gap: 2rem;
 }
+.nav-link {
+  cursor: pointer;
+}
+.nav-link:hover {
+  border-bottom: 1px solid var(--black);
+}
+.nav-link:focus-visible {
+  outline: 2px solid var(--black);
+}
 /* __________________Navigation */
 /* mobile styles */
 @media (max-width: 700px) {

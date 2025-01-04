@@ -3,6 +3,7 @@ import Image from "next/image";
 import "./globals.css";
 import { Inter, Nunito_Sans, Josefin_Sans } from "next/font/google";
 import MainNav from "@/components/MainNav/MainNav";
+import FooterNav from "@/components/FooterNav/FooterNav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +36,9 @@ export default function RootLayout({ children }) {
           <MainNav />
         </header>
         <div>{children}</div>
+        <footer>
+          <FooterNav />
+        </footer>
       </body>
     </html>
   );

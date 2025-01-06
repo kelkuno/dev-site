@@ -7,14 +7,6 @@ export default function Home() {
     <main className="container">
       <section className={`grid ${styles.hero}`}>
         <div>
-          <Image
-            src="/images/website-greeting.svg"
-            alt="Handwritten note saying, Hello. My name is Kelsey"
-            className={styles.greeting}
-            width={251}
-            height={80}
-            priority
-          />
           <h2>I am a creative developer amet, consectetuer adipiscing elit.</h2>
           <Link
             href="/kelsey-kuno-resume-2024.pdf"

@@ -85,9 +85,9 @@ const FooterNav = () => {
         className={`${styles["footer-col-wrapper"]} ${styles["secondary-content"]}`}
       >
         <Image
-          src="/images/k-logo.svg"
-          width="30"
-          height="30"
+          src="/images/kk-logo.svg"
+          width="185"
+          height="85"
           alt="Kelsey Kuno Logo"
         />
         <p className="sml-text">© Kelsey Kuno Designs</p>

@@ -32,11 +32,11 @@ const MainNav = () => {
     >
       <div className={styles["nav-wrapper"]}>
         <Image
-          src="/images/k-logo.svg"
+          src="/images/kk-logo.svg"
           alt="Kelsey Kuno logo"
           className="main-nav--logo"
-          width={26}
-          height={32}
+          width={185}
+          height={85}
           priority
         />
         <nav className={styles["primary-navigation"]} id="primary-navigation">

@@ -1,0 +1,108 @@
+.hero-wrapper {
+  width: 100%;
+}
+
+.hero-container {
+  text-align: center;
+}
+.project-title {
+  font-size: 3.1575rem;
+  line-height: 3rem;
+  padding-top: 4rem;
+  margin: 0;
+}
+.skill-wrapper {
+  display: flex;
+  margin: 2rem auto;
+  width: 60%;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project-skill {
+  font-family: var(--font-nunito_sans);
+  color: var(--black);
+  background-color: var(--paper);
+  border: solid 2px var(--black);
+  font-size: 1rem;
+  line-height: 1.125rem;
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  border-radius: 100px;
+  display: inline-block;
+  margin: 0;
+}
+.project-img {
+  width: 100%;
+}
+.project-img img {
+  width: 100%;
+}
+
+/* Main section styles  */
+.main-wrapper {
+  border: solid 2px red;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tech-section {
+  width: 25%;
+  border-bottom: solid 1px var(--light-gray);
+  border-right: solid 1px var(--light-gray);
+  text-align: center;
+}
+.tech-section li {
+  margin: 2rem 0;
+}
+.tech-title {
+  background: var(--black);
+  color: var(--paper);
+  padding: 0.5rem 2rem;
+}
+.project-content-wrapper {
+  border: solid 2px black;
+  width: 75%;
+}
+.project-copy {
+  padding: 0 6rem;
+}
+.pull-quote {
+  padding: 4rem;
+  background-color: var(--black);
+  color: var(--paper);
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .project-title {
+    font-size: 2.368rem;
+    line-height: 2.75rem;
+  }
+  .tech-section {
+    width: 100%;
+    order: 2;
+  }
+  .project-content-wrapper {
+    width: 100%;
+    order: 1;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .project-title {
+    font-size: 2.368rem;
+    line-height: 2.75rem;
+  }
+  .tech-section {
+    width: 100%;
+    order: 2;
+  }
+  .project-content-wrapper {
+    width: 100%;
+    order: 1;
+  }
+  .project-copy {
+    padding: 0;
+  }
+}

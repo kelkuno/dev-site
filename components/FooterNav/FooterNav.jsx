@@ -65,6 +65,7 @@ const FooterNav = () => {
         <div className={styles["footer-socials"]}>
           {socialLinks.map((social) => (
             <Link
+              key={social.href}
               href={social.href}
               target="_blank"
               rel="noopener noreferrer"

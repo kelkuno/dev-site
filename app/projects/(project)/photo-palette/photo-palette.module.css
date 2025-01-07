@@ -1,0 +1,4 @@
+.photo-palette-img {
+  object-fit: contain;
+  border: solid 2px green;
+}

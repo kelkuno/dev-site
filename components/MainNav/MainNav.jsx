@@ -31,14 +31,17 @@ const MainNav = () => {
       }
     >
       <div className={styles["nav-wrapper"]}>
-        <Image
-          src="/images/kk-logo.svg"
-          alt="Kelsey Kuno logo"
-          className="main-nav--logo"
-          width={185}
-          height={85}
-          priority
-        />
+        <div className={styles["logo-wrapper"]}>
+          <Image
+            src="/images/kk-logo.svg"
+            alt="Kelsey Kuno logo"
+            className="main-nav--logo"
+            width={185}
+            height={85}
+            layout="responsive"
+            priority
+          />
+        </div>
         <nav className={styles["primary-navigation"]} id="primary-navigation">
           <ul className={styles["nav-row"]} aria-label="Primary" role="list">
             {links.map((link) => (

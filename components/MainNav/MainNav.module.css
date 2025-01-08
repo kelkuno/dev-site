@@ -13,7 +13,7 @@
   position: sticky;
   top: 0;
   left: 0;
-  padding: 1rem 0;
+  padding: 2rem 0;
   width: 100%;
 }
 .nav-row {
@@ -29,6 +29,9 @@
 }
 .nav-link:focus-visible {
   outline: 2px solid var(--black);
+}
+.logo-wrapper {
+  width: 125px;
 }
 /* __________________Navigation */
 /* mobile styles */

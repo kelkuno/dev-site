@@ -1,8 +1,7 @@
-import styles from "./photo-palette.module.css";
 import projectStyles from "../project.module.css";
 import Image from "next/image";
 import Link from "next/link";
-const PhotoPalette = () => {
+const Calendar = () => {
   return (
     <div>
       <div className="container">
@@ -34,7 +33,6 @@ const PhotoPalette = () => {
                 <Image
                   src="/images/photo-palette-4.png"
                   alt="A screenshot of 4 custom palettes made on Photo.palette app"
-                  className={styles["hero__img"]}
                   width={1218}
                   height={429}
                   layout="responsive"
@@ -187,4 +185,4 @@ const PhotoPalette = () => {
     </div>
   );
 };
-export default PhotoPalette;
+export default Calendar;

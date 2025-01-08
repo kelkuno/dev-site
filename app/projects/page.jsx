@@ -1,5 +1,6 @@
 import styles from "./projects.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const ProjectPage = () => {
   return (
@@ -16,33 +17,39 @@ const ProjectPage = () => {
       <section className="container">
         <div className="row">
           <div className="col">
-            <Image
-              src="/images/placeholder.png"
-              alt="Handwritten note saying, Hello. My name is Kelsey"
-              width={400}
-              height={200}
-              priority
-            />
+            <Link href="/projects/photo-palette">
+              <Image
+                src="/images/photo-palette-2.png"
+                alt="Four palettes from the photo.palette app"
+                width={848}
+                height={848}
+                priority
+                layout="responsive"
+              />
+            </Link>
             <p className="date">Development</p>
-            <h5>Photo Palette Project</h5>
+            <h5>photo.palette Project</h5>
             <div>
-              <a className="primary-link" href="/projects/photo-palette">
+              <Link className="primary-link" href="/projects/photo-palette">
                 See Project
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col">
-            <Image
-              src="/images/placeholder.png"
-              alt="Handwritten note saying, Hello. My name is Kelsey"
-              width={400}
-              height={200}
-              priority
-            />
-            <p className="date">October 27, 2024</p>
-            <h5>The secret to designing logos and other wordly secrets.</h5>
+            <Link href="/projects/photo-palette">
+              <Image
+                src="/images/cal-cover.png"
+                alt="Kelsey Kuno Painting Calendar cover"
+                width={1620}
+                height={1620}
+                priority
+                layout="responsive"
+              />
+            </Link>
+            <p className="date">Design</p>
+            <h5>Painting Calendar</h5>
             <div>
-              <a className="primary-link" href="#">
+              <a className="primary-link" href="projects/calendar">
                 See Project
               </a>
             </div>

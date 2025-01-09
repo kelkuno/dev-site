@@ -8,36 +8,49 @@ const Calendar = () => {
         <main>
           <section className={`${projectStyles["hero-wrapper"]} `}>
             <div className={projectStyles["hero-container"]}>
-              <h1>photo.palette</h1>
-              <p className="lg-title">
-                A full CRUD web application (Student Solo Project)
-              </p>
+              <h1>Painting Calendar</h1>
+              <p className="lg-title">An artisian calendar for the new year.</p>
               <div className={projectStyles["skill-wrapper"]}>
-                <p className={projectStyles["project-skill"]}>
-                  Frontend Development
-                </p>
-                <p className={projectStyles["project-skill"]}>UI/UX Design</p>
-                <p className={projectStyles["project-skill"]}>
-                  Responsive Design
-                </p>
-                <p className={projectStyles["project-skill"]}>
-                  Backend Development
-                </p>
-                <p className={projectStyles["project-skill"]}>
-                  Database Management
-                </p>
+                <p className={projectStyles["project-skill"]}>Layout Design</p>
+                <p className={projectStyles["project-skill"]}>Image Editing</p>
+                <p className={projectStyles["project-skill"]}>Typography</p>
+                <p className={projectStyles["project-skill"]}>Marketing</p>
+                <p className={projectStyles["project-skill"]}>Branding</p>
 
-                <p className={projectStyles["project-skill"]}>RESTful APIs</p>
+                <p className={projectStyles["project-skill"]}>
+                  Print Production
+                </p>
               </div>
-              <div className={`${projectStyles["project-img"]} mt-4 mt-b`}>
-                <Image
-                  src="/images/photo-palette-4.png"
-                  alt="A screenshot of 4 custom palettes made on Photo.palette app"
-                  width={1218}
-                  height={429}
-                  layout="responsive"
-                  priority
-                />
+              <div
+                className={`${projectStyles["project-row"]} ${projectStyles["three-col"]}`}
+              >
+                <div className={projectStyles["project-col"]}>
+                  <Image
+                    src="/images/calendar-1.png"
+                    alt="The month of May from Kelsey Kuno Designs Art Calendar"
+                    width={11}
+                    height={14}
+                    layout="responsive"
+                  />
+                </div>
+                <div className={projectStyles["project-col"]}>
+                  <Image
+                    src="/images/calendar-2.png"
+                    alt="The month of June from Kelsey Kuno Designs Art Calendar"
+                    width={11}
+                    height={14}
+                    layout="responsive"
+                  />
+                </div>
+                <div className={projectStyles["project-col"]}>
+                  <Image
+                    src="/images/calendar-3.png"
+                    alt="The month of July from Kelsey Kuno Designs Art Calendar"
+                    width={11}
+                    height={14}
+                    layout="responsive"
+                  />
+                </div>
               </div>
             </div>
           </section>
@@ -46,133 +59,91 @@ const Calendar = () => {
               <h5>Technology and Software</h5>
               <ul className={projectStyles["tech-list"]}>
                 <li>
-                  <span className={projectStyles["tech-title"]}>Node</span>
-                </li>
-                <li>
-                  <span className={projectStyles["tech-title"]}>Express</span>
-                </li>
-                <li>
-                  <span className={projectStyles["tech-title"]}>React</span>
+                  <span className={projectStyles["tech-title"]}>Figma</span>
                 </li>
                 <li>
                   <span className={projectStyles["tech-title"]}>
-                    Redux-Saga
+                    Adobe Photoshop
                   </span>
                 </li>
                 <li>
                   <span className={projectStyles["tech-title"]}>
-                    React-color-extractor
+                    Adobe Lightroom
                   </span>
-                </li>
-                <li>
-                  <span className={projectStyles["tech-title"]}>
-                    React-colorful
-                  </span>
-                </li>
-                <li>
-                  <span className={projectStyles["tech-title"]}>SQL</span>
-                </li>
-                <li>
-                  <span className={projectStyles["tech-title"]}>
-                    Postgresql
-                  </span>
-                </li>
-                <li>
-                  <span className={projectStyles["tech-title"]}>Heroku</span>
-                </li>
-                <li>
-                  <span className={projectStyles["tech-title"]}>CSS</span>
                 </li>
               </ul>
             </div>
             <div className={projectStyles["project-content-wrapper"]}>
-              <h5 className={projectStyles["project-important-copy"]}>
-                We're constantly surrounded by fascinating color combinations,
-                but without recording them, we can't recall them when
-                inspiration strikes.
-              </h5>
               <p className={projectStyles["project-copy"]}>
-                I built the Photo.Palette app while I was still in software
-                engineering bootcamp. The projection duration was 2 weeks and
-                the project scope was to build a full CRUD application. The
-                theme was open to our own interests. As a painter, I naturally
-                gravitated towards a tool I can use in my paintings.
-              </p>
-              <p className={projectStyles["project-copy"]}>
-                My app allows artists and designers to create, customize and
-                save image generated color palettes for later use. In short, I
-                wanted a way for creatives to archive color combinations they
-                find inspiring.
-              </p>
-              <div
-                className={`${projectStyles["project-row"]} ${projectStyles["three-col"]}`}
-              >
-                <div className={projectStyles["project-col"]}>
-                  <Image
-                    src="/images/photo-palette-1.webp"
-                    alt="A video clip of a user scrolling through their photo.palette home page"
-                    width={480}
-                    height={404}
-                    layout="responsive"
-                  />
-                </div>
-                <div className={projectStyles["project-col"]}>
-                  <Image
-                    src="/images/photo-palette-2.webp"
-                    alt="A video clip of a user generating a color palette on photo.palette"
-                    width={480}
-                    height={404}
-                    layout="responsive"
-                  />
-                </div>
-                <div className={projectStyles["project-col"]}>
-                  <Image
-                    src="/images/photo-palette-3.webp"
-                    alt="A video clip of a user editing one of their saved color palettes on photo.palette"
-                    width={480}
-                    height={404}
-                    layout="responsive"
-                  />
-                </div>
-              </div>
-
-              <p className={projectStyles["project-copy"]}>
-                We learned the art of planning by making a detail{" "}
+                I designed a printed calendar that featured an assortment of my
+                original oil paintings. I used this as marketing content for my
+                artwork. I had a lot of fun with the design itself and also
+                being creative with the{" "}
                 <a
-                  href="https://docs.google.com/document/d/137iK_bsOJbLLuM_st7pHMUAebAm-2pgH2rqp3srLdJ0/edit?tab=t.0"
+                  href="https://www.instagram.com/p/DED1s5-s3JH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="copy-link"
                 >
-                  {" "}
-                  project scope
-                </a>{" "}
-                before executing the code. Creating the wireframes and
-                application flow was incredibly important.
+                  social media messaging
+                </a>
+                .
               </p>
               <p className={projectStyles["project-copy"]}>
-                Curious to give it a try? I deployed the application on Heroku.
+                I recently relocated to Brooklyn, NY and I wanted to include
+                shots of New York in the promotional photos.
+              </p>
+              <div
+                className={`${projectStyles["project-row"]} ${projectStyles["two-col"]}`}
+              >
+                <div className={projectStyles["project-col"]}>
+                  <Image
+                    src="/images/ny-calendar-1.jpg"
+                    alt="Kelsey Kuno and her promotional calendar in the NY subway"
+                    width={3}
+                    height={2}
+                    layout="responsive"
+                  />
+                </div>
+                <div className={projectStyles["project-col"]}>
+                  <Image
+                    src="/images/ny-calendar-2.jpg"
+                    alt="Kelsey Kuno and her promotional calendar in the NY subway"
+                    width={3}
+                    height={2}
+                    layout="responsive"
+                  />
+                </div>
+              </div>
+              <p className={projectStyles["project-copy"]}>
+                One key design takeaway I learned from this project is the power
+                of restraint. While the final calendar layout is simple and
+                features ample negative space, this wasn't the case in my early
+                drafts. I initially experimented with more complex type systems
+                and grid layouts, but I found these designs to be distracting.
+                Through many iterations, I realized that a minimalist approach
+                allowed the artwork to shine. The breathing room in the layout
+                creates balance and anchors the paintings as the true focal
+                point.
+              </p>
+              <p className={projectStyles["project-copy"]}>
+                Figma is undoubtedly an awesome tool for digital projects but
+                does it hold up for printed projects? I chose to use Figma over
+                InDesign here to see how well Figma would do with the latter.
+                The results? Figma passed the test! (With the help of a Figma
+                pro plugin.)
               </p>
               <div className={`${projectStyles["project-copy"]} mb-1 mt-2`}>
                 <a
                   className="primary-link"
-                  href="https://peaceful-meadow-98495.herokuapp.com/"
+                  href="https://www.figma.com/design/awq3xHbmsTbGPGqBIfJnNw/2025-calendar?node-id=0-1&t=KAoQxLgCvfXGXzAR-1"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  See Deployed App
+                  See Figma File
                 </a>
               </div>
-              <div className={`${projectStyles["project-copy"]} mb-1`}>
-                <a
-                  className="primary-link"
-                  href="https://github.com/kelkuno/photo-palette/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  See GitHub Repo
-                </a>
-              </div>
+
               <div className={projectStyles["text-center"]}>
                 <Link href="/projects" className="primary-btn">
                   See All Projects

@@ -21,8 +21,8 @@ const ProjectPage = () => {
               <Image
                 src="/images/photo-palette-2.png"
                 alt="Four palettes from the photo.palette app"
-                width={848}
-                height={848}
+                width={1}
+                height={1}
                 priority
                 layout="responsive"
               />
@@ -36,12 +36,12 @@ const ProjectPage = () => {
             </div>
           </div>
           <div className="col">
-            <Link href="/projects/photo-palette">
+            <Link href="/projects/calendar">
               <Image
                 src="/images/cal-cover.png"
                 alt="Kelsey Kuno Painting Calendar cover"
-                width={1620}
-                height={1620}
+                width={1}
+                height={1}
                 priority
                 layout="responsive"
               />
@@ -71,17 +71,20 @@ const ProjectPage = () => {
             </div>
           </div>
           <div className="col">
-            <Image
-              src="/images/placeholder.png"
-              alt="Handwritten note saying, Hello. My name is Kelsey"
-              width={400}
-              height={200}
-              priority
-            />
-            <p className="date">October 27, 2024</p>
-            <h5>The secret to designing logos and other wordly secrets.</h5>
+            <Link href="/projects/homespice">
+              <Image
+                src="/images/hs-project-cover.png"
+                alt="Home Spice cover Art: A cook's hands chopping a red pepper."
+                width={1}
+                height={1}
+                priority
+                layout="responsive"
+              />
+            </Link>
+            <p className="date">Design</p>
+            <h5>Home Spice</h5>
             <div>
-              <a className="primary-link" href="#">
+              <a className="primary-link" href="/projects/homespice">
                 Read More
               </a>
             </div>

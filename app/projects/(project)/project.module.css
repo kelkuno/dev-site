@@ -75,6 +75,15 @@
   background-color: var(--black);
   color: var(--paper);
 }
+.project-video-block {
+  width: 100%;
+}
+.project-video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  display: block;
+}
 /* column code  */
 .project-row {
   display: flex;

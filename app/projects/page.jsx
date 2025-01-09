@@ -56,16 +56,17 @@ const ProjectPage = () => {
           </div>
           <div className="col">
             <Image
-              src="/images/placeholder.png"
-              alt="Handwritten note saying, Hello. My name is Kelsey"
-              width={400}
-              height={200}
+              src="/images/kt-cover.png"
+              alt="A still from a kinetic typography motion design by Kelsey Kuno"
+              width={1}
+              height={1}
               priority
+              layout="responsive"
             />
-            <p className="date">October 27, 2024</p>
-            <h5>The secret to designing logos and other wordly secrets.</h5>
+            <p className="date">Design</p>
+            <h5>Kinetic Typography Motion Design</h5>
             <div>
-              <a className="primary-link" href="#">
+              <a className="primary-link" href="/projects/kinetic-type">
                 Read More
               </a>
             </div>

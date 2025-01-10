@@ -112,6 +112,25 @@ const ProjectPage = () => {
               </a>
             </div>
           </div>
+          <div className="col">
+            <Link href="/projects/motion-design">
+              <Image
+                src="/images/animation-cover.png"
+                alt="An illustrated self portrait of Kelsey Kuno"
+                width={1}
+                height={1}
+                priority
+                layout="responsive"
+              />
+            </Link>
+            <p className="date">Design</p>
+            <h5>Motion Design</h5>
+            <div>
+              <a className="primary-link" href="/projects/motion-design">
+                Read More
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </div>

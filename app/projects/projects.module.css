@@ -28,9 +28,7 @@
   border-right: solid 1px var(--light-gray);
   border-bottom: solid 1px var(--light-gray);
 }
-.project-page-wrapper {
-  border: solid 2px black;
-}
+
 .row {
   flex-wrap: wrap;
 }

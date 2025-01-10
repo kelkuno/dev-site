@@ -207,14 +207,14 @@ ul {
   align-items: center;
 }
 
-.grid {
+/* .grid {
   background-image: linear-gradient(
       var(--light-gray) 0.0625rem,
       transparent 0.0625rem
     ),
     linear-gradient(90deg, var(--light-gray) 0.0625rem, transparent 0.0625rem);
   background-size: 1rem 1rem;
-}
+} */
 /* helper classes  */
 
 .mt-1 {

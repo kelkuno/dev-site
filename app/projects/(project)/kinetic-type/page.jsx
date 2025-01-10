@@ -32,7 +32,7 @@ const kineticType = () => {
               >
                 <iframe
                   src="https://player.vimeo.com/video/363163439?h=f8091b371e"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                   title="Moving Type"
                   className={projectStyles["project-video"]}
@@ -124,6 +124,7 @@ const kineticType = () => {
                     width={16}
                     height={9}
                     layout="responsive"
+                    unoptimized
                   />
                 </div>
                 <div className={projectStyles["project-col"]}>
@@ -133,6 +134,7 @@ const kineticType = () => {
                     width={16}
                     height={9}
                     layout="responsive"
+                    unoptimized
                   />
                 </div>
               </div>

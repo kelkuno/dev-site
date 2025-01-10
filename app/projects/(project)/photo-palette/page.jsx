@@ -116,6 +116,7 @@ const PhotoPalette = () => {
                     width={480}
                     height={404}
                     layout="responsive"
+                    unoptimized
                   />
                 </div>
                 <div className={projectStyles["project-col"]}>
@@ -125,6 +126,7 @@ const PhotoPalette = () => {
                     width={480}
                     height={404}
                     layout="responsive"
+                    unoptimized
                   />
                 </div>
                 <div className={projectStyles["project-col"]}>
@@ -134,6 +136,7 @@ const PhotoPalette = () => {
                     width={480}
                     height={404}
                     layout="responsive"
+                    unoptimized
                   />
                 </div>
               </div>

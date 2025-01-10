@@ -55,14 +55,17 @@ const ProjectPage = () => {
             </div>
           </div>
           <div className="col">
-            <Image
-              src="/images/kt-cover.png"
-              alt="A still from a kinetic typography motion design by Kelsey Kuno"
-              width={1}
-              height={1}
-              priority
-              layout="responsive"
-            />
+            <Link href="/projects/kinetic-type">
+              {" "}
+              <Image
+                src="/images/kt-cover.png"
+                alt="A still from a kinetic typography motion design by Kelsey Kuno"
+                width={1}
+                height={1}
+                priority
+                layout="responsive"
+              />
+            </Link>
             <p className="date">Design</p>
             <h5>Kinetic Typography Motion Design</h5>
             <div>
@@ -86,6 +89,25 @@ const ProjectPage = () => {
             <h5>Home Spice</h5>
             <div>
               <a className="primary-link" href="/projects/homespice">
+                Read More
+              </a>
+            </div>
+          </div>
+          <div className="col">
+            <Link href="/projects/does-this-age-well">
+              <Image
+                src="/images/podcast-cover.png"
+                alt="Does this age well?"
+                width={1}
+                height={1}
+                priority
+                layout="responsive"
+              />
+            </Link>
+            <p className="date">Design</p>
+            <h5>Does This Age Well?</h5>
+            <div>
+              <a className="primary-link" href="/projects/does-this-age-well">
                 Read More
               </a>
             </div>

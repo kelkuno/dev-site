@@ -11,8 +11,8 @@ const HomeSpice = () => {
             <div className={projectStyles["hero-container"]}>
               <h1>Home Spice</h1>
               <p className="lg-title">
-                Home Spice is an at-home cooking show that explores learning new
-                recipes with warmth, love, and a touch of imperfection.
+                A cooking show celebrating new recipes with love and a dash of
+                imperfection.
               </p>
               <div className={projectStyles["skill-wrapper"]}>
                 <p className={projectStyles["project-skill"]}>

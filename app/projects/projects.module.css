@@ -7,8 +7,9 @@
   justify-content: center;
   text-align: center;
   z-index: 10;
-
-  /* height: var(--two-col); */
+}
+.projects-col {
+  padding-bottom: 2rem;
 }
 .project-page-wrapper .hero-text {
   /* width: 100%; */
@@ -46,8 +47,4 @@
   gap: 0.5rem;
   margin-top: 1rem;
   /* justify-content: center; */
-}
-.projects-skills-wrapper > * {
-  /* border: solid 1px black; */
-  /* width: 100%; */
 }

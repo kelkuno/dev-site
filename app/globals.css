@@ -132,8 +132,8 @@ ul {
   color: var(--orange);
 }
 .primary-link {
-  text-transform: uppercase;
-  font-weight: bold;
+  /* text-transform: uppercase; */
+  /* font-weight: bold; */
   border-bottom: 2px solid var(--black);
 }
 .primary-link::after {

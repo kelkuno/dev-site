@@ -11,12 +11,11 @@ const ProjectPage = () => {
             <p className="sml-title">Design & Development</p>
             <h1>Project Work</h1>
           </div>
-          <div className={`${styles["grid-container"]} grid`}></div>
         </div>
       </section>
       <section className="container">
         <div className="row">
-          <div className="col">
+          <div className={`col ${styles["projects-col"]}`}>
             <Link href="/projects/photo-palette">
               <Image
                 src="/images/photo-palette-2.png"
@@ -32,8 +31,11 @@ const ProjectPage = () => {
               <h5>photo.palette Project</h5>
             </Link>
             <h6>A full CRUD web application (Student Solo Project)</h6>
+            <Link className="primary-link" href="/projects/photo-palette">
+              Read More
+            </Link>
           </div>
-          <div className="col">
+          <div className={`col ${styles["projects-col"]}`}>
             <Link href="/projects/calendar">
               <Image
                 src="/images/cal-cover.png"
@@ -46,14 +48,12 @@ const ProjectPage = () => {
             </Link>
             <p className="date">Design</p>
             <h5>Painting Calendar</h5>
-            <h6>A full CRUD web application (Student Solo Project)</h6>
-            <div>
-              <a className="primary-link" href="projects/calendar">
-                See Project
-              </a>
-            </div>
+            <h6>An artisian calendar for the new year</h6>
+            <Link className="primary-link" href="/projects/calendar">
+              Read More
+            </Link>
           </div>
-          <div className="col">
+          <div className={`col ${styles["projects-col"]}`}>
             <Link href="/projects/kinetic-type">
               {" "}
               <Image
@@ -66,14 +66,13 @@ const ProjectPage = () => {
               />
             </Link>
             <p className="date">Design</p>
-            <h5>Kinetic Typography Motion Design</h5>
-            <div>
-              <a className="primary-link" href="/projects/kinetic-type">
-                Read More
-              </a>
-            </div>
+            <h5>Typography Motion Design</h5>
+            <h6>An expressive take on animating the past</h6>
+            <Link className="primary-link" href="/projects/kinetic-type">
+              Read More
+            </Link>
           </div>
-          <div className="col">
+          <div className={`col ${styles["projects-col"]}`}>
             <Link href="/projects/homespice">
               <Image
                 src="/images/hs-project-cover.png"
@@ -86,13 +85,15 @@ const ProjectPage = () => {
             </Link>
             <p className="date">Design</p>
             <h5>Home Spice</h5>
-            <div>
-              <a className="primary-link" href="/projects/homespice">
-                Read More
-              </a>
-            </div>
+            <h6>
+              A cooking show celebrating new recipes with love and a dash of
+              imperfection
+            </h6>
+            <Link className="primary-link" href="/projects/homespice">
+              Read More
+            </Link>
           </div>
-          <div className="col">
+          <div className={`col ${styles["projects-col"]}`}>
             <Link href="/projects/does-this-age-well">
               <Image
                 src="/images/podcast-cover.png"
@@ -105,13 +106,12 @@ const ProjectPage = () => {
             </Link>
             <p className="date">Design</p>
             <h5>Does This Age Well?</h5>
-            <div>
-              <a className="primary-link" href="/projects/does-this-age-well">
-                Read More
-              </a>
-            </div>
+            <h6>Playful podcast branding for a witty comedian podcast</h6>
+            <Link className="primary-link" href="/projects/does-this-age-well">
+              Read More
+            </Link>
           </div>
-          <div className="col">
+          <div className={`col ${styles["projects-col"]}`}>
             <Link href="/projects/motion-design">
               <Image
                 src="/images/animation-cover.png"
@@ -124,11 +124,10 @@ const ProjectPage = () => {
             </Link>
             <p className="date">Design</p>
             <h5>Animation</h5>
-            <div>
-              <a className="primary-link" href="/projects/motion-design">
-                Read More
-              </a>
-            </div>
+            <h6>A collection of my animation experiments across the years</h6>
+            <Link className="primary-link" href="/projects/motion-design">
+              Read More
+            </Link>
           </div>
         </div>
       </section>

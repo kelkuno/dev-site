@@ -7,9 +7,10 @@ const BlogPage = async () => {
   const blogs = data.blogPostCollection.items;
 
   return (
-    <div>
-      <h2>blog page</h2>
-      <ul>
+    <div className="container">
+      <h1>blog</h1>
+      <p>Blog with dynamic headless CMS content coming soon...</p>
+      {/* <ul>
         {blogs.map((blog) => (
           <li key={blog._id}>
             <Link href={`/blog/${blog.slug}`}>{blog.title}</Link>
@@ -21,7 +22,7 @@ const BlogPage = async () => {
             />
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 };

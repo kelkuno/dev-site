@@ -27,7 +27,6 @@ const PhotoPalette = () => {
                 <p className={projectStyles["project-skill"]}>
                   Database Management
                 </p>
-
                 <p className={projectStyles["project-skill"]}>RESTful APIs</p>
               </div>
               <div className={`${projectStyles["project-img"]} mt-4 mt-b`}>

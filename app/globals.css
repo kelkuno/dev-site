@@ -84,6 +84,7 @@ h1 {
 h2 {
   font-size: 3.1575rem;
   line-height: 3rem;
+  margin: 1em 0;
 }
 h3 {
   font-size: 2.368rem;
@@ -97,6 +98,12 @@ h5 {
   font-size: 1.33rem;
   line-height: 1.5rem;
   margin: 0.5rem 0;
+}
+h6 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin: 0.5rem 0;
+  font-family: var(--font-nunito_sans);
 }
 a {
   color: inherit;
@@ -154,6 +161,7 @@ ul {
   margin: 2rem 0;
   display: inline-block;
 }
+
 .sml-title {
   font-size: 1rem;
   line-height: 1.125rem;

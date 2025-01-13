@@ -28,7 +28,26 @@
   border-right: solid 1px var(--light-gray);
   border-bottom: solid 1px var(--light-gray);
 }
+.x-sml-title {
+  /* text-transform: uppercase;
+  letter-spacing: 0.06rem; */
 
-.row {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  color: var(--black);
+  margin: 0;
+  background-color: var(--lilac);
+  padding: 0.25rem;
+}
+.projects-skills-wrapper {
+  display: flex;
   flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  /* justify-content: center; */
+}
+.projects-skills-wrapper > * {
+  /* border: solid 1px black; */
+  /* width: 100%; */
 }

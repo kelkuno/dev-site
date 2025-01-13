@@ -1,126 +1,28 @@
-.hero-container {
-  /* border: 5px solid red; */
-  position: relative;
-  width: 100%;
-}
-.about-grid {
-  width: 100%;
-  height: 24rem;
-  position: absolute;
-  top: 8rem;
-  border-bottom: 1px solid var(--light-gray);
-  border-right: 1px solid var(--light-gray);
-}
-.hero__title {
-  width: var(--six-col);
-  /* border: solid 2px green; */
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(0, -50%);
-  margin-left: var(--one-col);
-  z-index: 100;
-}
-.hero-img-wrapper {
-  /* border: solid 2px pink; */
-  width: var(--six-col);
-  margin-left: auto;
-  position: relative;
-  margin-right: var(--one-col);
-  z-index: 50;
-}
-.hero__img {
-  position: relative;
-  border: solid 2px black;
-  display: block;
-  height: auto;
-}
-.hero__link {
-  position: absolute;
-  /* border: dotted 2px green; */
-  bottom: 1rem;
-  right: 2rem;
-  /* right: 0; */
-}
 .about-content {
-  /* border: solid 2px blue; */
-  width: var(--six-col);
-  margin-left: var(--one-col);
+  width: 50%;
+  padding: 2rem;
 }
-.about-skills {
-  /* border: solid 2px purple; */
-  width: var(--four-col);
-  margin-right: var(--one-col);
-  align-self: flex-start;
+.image-container {
+  width: 50%;
 }
-/* .about-wrapper {
-  align-items: center;
-  border: solid 2px red;
-} */
+.about-page-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
-  .about-grid {
-    height: 14rem;
-  }
-  .hero__title {
-    width: var(--five-col);
-  }
-  .hero-img-wrapper {
-    width: var(--five-col);
-  }
-  .about-content {
-    width: var(--five-col);
-  }
-  /* .about-skills {
-    width: var(---three-col);
-  } */
 }
 
 /* Mobile */
 @media (max-width: 700px) {
-  .hero__title {
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: translate(0, 0);
-    margin: 0 auto;
-  }
-  .hero-img-wrapper {
-    /* border: solid 2px pink; */
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-  }
-  .hero__img {
-    position: relative;
-    /* border: solid 2px black; */
-    display: block;
-    height: auto;
-  }
-  .hero__link {
-    position: relative;
-    /* border: dotted 2px green; */
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    /* right: 0; */
-  }
-  .about-grid {
-    width: 100%;
-    height: 8rem;
-    /* border: 2px solid black; */
-    position: relative;
-    top: 0;
-    left: 0;
-  }
   .about-content {
     /* border: solid 2px blue; */
     width: 100%;
     margin: 0 auto;
+    padding: 2rem 0;
   }
-  .about-skills {
+  .image-container {
     width: 100%;
-    margin: 0 auto;
   }
 }

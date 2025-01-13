@@ -9,7 +9,7 @@ const MotionDesign = () => {
         <main>
           <section className={`${projectStyles["hero-wrapper"]} `}>
             <div className={projectStyles["hero-container"]}>
-              <h1>Motion Design</h1>
+              <h1>Animation</h1>
               <p className="lg-title">
                 A collection of my animation experiments across the years.
               </p>

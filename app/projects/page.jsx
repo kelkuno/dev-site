@@ -27,13 +27,11 @@ const ProjectPage = () => {
                 layout="responsive"
               />
             </Link>
-            <p className="date">Development</p>
-            <h5>photo.palette Project</h5>
-            <div>
-              <Link className="primary-link" href="/projects/photo-palette">
-                See Project
-              </Link>
-            </div>
+            <p className="date">Design</p>
+            <Link className="project-link" href="/projects/photo-palette">
+              <h5>photo.palette Project</h5>
+            </Link>
+            <h6>A full CRUD web application (Student Solo Project)</h6>
           </div>
           <div className="col">
             <Link href="/projects/calendar">
@@ -48,6 +46,7 @@ const ProjectPage = () => {
             </Link>
             <p className="date">Design</p>
             <h5>Painting Calendar</h5>
+            <h6>A full CRUD web application (Student Solo Project)</h6>
             <div>
               <a className="primary-link" href="projects/calendar">
                 See Project
@@ -124,7 +123,7 @@ const ProjectPage = () => {
               />
             </Link>
             <p className="date">Design</p>
-            <h5>Motion Design</h5>
+            <h5>Animation</h5>
             <div>
               <a className="primary-link" href="/projects/motion-design">
                 Read More

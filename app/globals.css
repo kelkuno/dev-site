@@ -7,13 +7,15 @@
   /* colors */
   --white: #ffffff;
   --black: #1c1c1c;
+  /* --black: #ffff00; */
   --gray: #5e5e5e;
   --light-gray: #b7b4b4;
   --orange: #ff432a;
   --teal: #6bffdf;
-  --lilac: #e1b4ff;
+  --lilac: #fefd02;
+  --yellow: #fefd02;
   --blue: #17029f;
-  --paper: #ffffff;
+  --paper: #fef3f8;
 
   /* fonts */
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -146,7 +148,7 @@ ul {
   display: inline-block;
 }
 .primary-link:hover {
-  color: var(--orange);
+  background-color: var(--yellow);
 }
 .primary-btn {
   font-family: var(--font-nunito_sans);

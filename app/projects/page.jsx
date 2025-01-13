@@ -16,6 +16,24 @@ const ProjectPage = () => {
       <section className="container">
         <div className="row">
           <div className={`col ${styles["projects-col"]}`}>
+            <Link href="/projects/portfolio-website">
+              <Image
+                src="/images/photo-palette-2.png"
+                alt="Four palettes from the photo.palette app"
+                width={1}
+                height={1}
+                priority
+                layout="responsive"
+              />
+            </Link>
+            <p className="date">Development & Design</p>
+            <h5>Portfolio Website</h5>
+            <h6>A full CRUD web application (Student Solo Project)</h6>
+            <Link className="primary-link" href="/projects/portfolio-website">
+              Read More
+            </Link>
+          </div>
+          <div className={`col ${styles["projects-col"]}`}>
             <Link href="/projects/photo-palette">
               <Image
                 src="/images/photo-palette-2.png"
@@ -26,10 +44,8 @@ const ProjectPage = () => {
                 layout="responsive"
               />
             </Link>
-            <p className="date">Design</p>
-            <Link className="project-link" href="/projects/photo-palette">
-              <h5>photo.palette Project</h5>
-            </Link>
+            <p className="date">Development</p>
+            <h5>photo.palette Project</h5>
             <h6>A full CRUD web application (Student Solo Project)</h6>
             <Link className="primary-link" href="/projects/photo-palette">
               Read More

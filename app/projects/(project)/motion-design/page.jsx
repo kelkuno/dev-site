@@ -124,6 +124,11 @@ const MotionDesign = () => {
                   className={projectStyles["project-video"]}
                 ></iframe>
               </div>
+              <div className={projectStyles["text-center"]}>
+                <Link href="/projects" className="primary-btn">
+                  See All Projects
+                </Link>
+              </div>
             </div>
           </section>
         </main>

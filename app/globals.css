@@ -35,8 +35,10 @@
   @font-face {
     font-family: "AwesomeSpill";
     src:
-      url("/fonts/awesomespill-regular-webfont.woff") format("woff"),
-      url("/fonts/awesomespill-regular-webfont.woff2") format("woff2");
+      url("/fonts/awesomespill-regular-webfont.woff2") format("woff2"),
+      url("/fonts/awesomespill-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
   }
 
   /* spacing */

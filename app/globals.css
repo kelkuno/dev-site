@@ -12,21 +12,9 @@
   --gray: #5e5e5e;
   --light-gray: #b7b4b4;
   --orange: #ff432a;
-  /* --orange: #6bffdf; */
-  --teal: #6bffdf;
-  --lilac: #fefd02;
-  --yellow: #fefd02;
+  --yellow: #f1ff00;
   --blue: #17029f;
-  --paper: #fef3f8;
-  --paper: #f7c9c8;
-  /* this one is good below */
-  /* --paper: #ffe1e0; */
-  /* --paper: #fed4ff; */
-  /* this one is good below */
   --paper: #fce1fc;
-  /* --paper: #fcebfc; */
-  /* --paper: #edf1f2; */
-  /* --paper: #e0e9e9; */
 
   /* fonts */
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -173,7 +161,7 @@ ul {
 .primary-btn {
   font-family: var(--font-nunito_sans);
   color: var(--black);
-  background-color: var(--lilac);
+  background-color: var(--yellow);
   border: solid 2px var(--black);
   font-size: 1rem;
   line-height: 1.125rem;
@@ -213,7 +201,7 @@ ul {
   line-height: 3rem;
 }
 .skill {
-  color: var(--lilac);
+  color: var(--yellow);
 }
 
 .container {

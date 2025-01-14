@@ -12,9 +12,11 @@
   --gray: #5e5e5e;
   --light-gray: #b7b4b4;
   --orange: #ff432a;
+
   --yellow: #f1ff00;
   --blue: #17029f;
-  --paper: #fce1fc;
+  /* --paper: #fce1fc; */
+  --paper: #edf1f2;
 
   /* fonts */
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",

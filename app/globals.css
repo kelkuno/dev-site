@@ -197,7 +197,8 @@ ul {
   color: var(--gray);
 }
 .skill-swap {
-  font-family: "AwesomeSpill", var(--font-nunito_sans), sans-serif;
+  font-family: "AwesomeSpill", var(--font-kaushan_script),
+    var(--font-josefin_sans), sans-serif;
   color: var(--orange);
   font-size: 3.1575rem;
   line-height: 3rem;

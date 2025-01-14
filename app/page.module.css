@@ -10,6 +10,9 @@
     width: 60%;
     margin: 0 auto;
   }
+  .home-content h1 {
+    font-size: 2.9rem;
+  }
 }
 
 /* Tablet and Smaller Desktop */

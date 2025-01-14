@@ -9,7 +9,7 @@ const PhotoPalette = () => {
         <main>
           <section className={`${projectStyles["hero-wrapper"]} `}>
             <div className={projectStyles["hero-container"]}>
-              <h1>photo.palette</h1>
+              <h1>Photo Palette</h1>
               <p className="lg-title">
                 A full CRUD web application (Student Solo Project)
               </p>
@@ -93,7 +93,7 @@ const PhotoPalette = () => {
                 inspiration strikes.
               </h5>
               <p className={projectStyles["project-copy"]}>
-                I built the Photo.Palette app while I was still in software
+                I built the Photo Palette app while I was still in software
                 engineering bootcamp. The projection duration was 2 weeks and
                 the project scope was to build a full CRUD application. The
                 theme was open to our own interests. As a painter, I naturally

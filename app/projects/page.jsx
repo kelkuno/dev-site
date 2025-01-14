@@ -45,7 +45,7 @@ const ProjectPage = () => {
               />
             </Link>
             <p className="date">Development</p>
-            <h5>photo.palette Project</h5>
+            <h5>Photo Palette Project</h5>
             <h6>A full CRUD web application (Student Solo Project)</h6>
             <Link className="primary-link" href="/projects/photo-palette">
               Read More

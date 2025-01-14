@@ -7,20 +7,28 @@
   /* colors */
   --white: #ffffff;
   --black: #1c1c1c;
+  /* --black: #000000; */
   /* --black: #ffff00; */
   --gray: #5e5e5e;
   --light-gray: #b7b4b4;
   --orange: #ff432a;
+  /* --orange: #6bffdf; */
   --teal: #6bffdf;
   --lilac: #fefd02;
   --yellow: #fefd02;
   --blue: #17029f;
   --paper: #fef3f8;
+  /* --paper: #edf1f2; */
+  /* --paper: #e0e9e9; */
 
   /* fonts */
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  @font-face {
+    font-family: "AwesomeSpill";
+    src: url("/fonts/awesomespill-regular-webfont.woff");
+  }
 
   /* spacing */
   --one-col: 6rem;
@@ -77,6 +85,7 @@ h5 {
   padding: 0;
   margin-block: 0;
   font-weight: 700;
+  /* color: var(--orange); */
 }
 h1 {
   font-size: 5.61rem;
@@ -186,6 +195,12 @@ ul {
   line-height: 1rem;
   color: var(--gray);
 }
+.skill-swap {
+  font-family: "AwesomeSpill", var(--font-nunito_sans), sans-serif;
+  color: var(--orange);
+  font-size: 3.1575rem;
+  line-height: 3rem;
+}
 .skill {
   color: var(--lilac);
 }
@@ -253,7 +268,8 @@ ul {
     line-height: 3rem;
     margin: 2rem 0;
   }
-  h2 {
+  h2,
+  .skill-swap {
     font-size: 2.368rem;
     line-height: 2.75rem;
   }
@@ -285,7 +301,8 @@ ul {
     line-height: 3rem;
     margin: 2rem 0;
   }
-  h2 {
+  h2,
+  .skill-swap {
     font-size: 2.368rem;
     line-height: 2.75rem;
   }

@@ -24,6 +24,8 @@
 }
 .footer-socials > * {
   margin-right: 1rem;
+  background-color: var(--yellow);
+  padding: 0.25rem;
 }
 .second-nav-links {
   cursor: pointer;
@@ -36,6 +38,11 @@
 .second-nav-links:focus-visible {
   outline: 2px solid var(--black);
 }
+.copyright {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
 
 /* Mobile */
 @media (max-width: 700px) {
@@ -43,6 +50,7 @@
     width: 100%;
     flex-wrap: wrap;
     padding: 1rem;
+    gap: 1rem;
   }
   .footer-col-wrapper {
     width: 100%;

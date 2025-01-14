@@ -9,7 +9,7 @@ const AboutPage = () => {
       <div className={styles["about-page-wrapper"]}>
         <div className={styles["image-container"]}>
           <Image
-            src="/images/about-bio-1.jpg"
+            src="/images/kelsey-headshot-building.jpg"
             alt="Kelsey Kuno on top of Brooklyn Bridge."
             width={1}
             height={1}
@@ -32,7 +32,7 @@ const AboutPage = () => {
             genuine interest in both design and development, I bring unique
             value to digital projects.
           </p>
-          <h5>My art side:</h5>
+          <h5>My Art side:</h5>
           <p>
             I am a visual artist with a passion for creativity in various forms.
             Holding a Masters in Graphic Arts and Web Design from the

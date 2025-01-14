@@ -34,7 +34,9 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
   @font-face {
     font-family: "AwesomeSpill";
-    src: url("/fonts/awesomespill-regular-webfont.woff");
+    src:
+      url("/fonts/awesomespill-regular-webfont.woff") format("woff"),
+      url("/fonts/awesomespill-regular-webfont.woff2") format("woff2");
   }
 
   /* spacing */

@@ -14,13 +14,11 @@ const AboutPage = () => {
             width={1}
             height={1}
             layout="responsive"
+            className={styles["profile-img"]}
           />
           <h2>
             Creative Developer;<br></br> Digital Designer.
           </h2>
-          <h6>
-            A curious creative who does not shy away from complex processes.
-          </h6>
         </div>
         <div className={styles["about-content"]}>
           <p>Hi, my name is Kelsey. Thanks for stopping by!</p>

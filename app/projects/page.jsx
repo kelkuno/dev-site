@@ -18,8 +18,8 @@ const ProjectPage = () => {
           <div className={`col ${styles["projects-col"]}`}>
             <Link href="/projects/portfolio-website">
               <Image
-                src="/images/photo-palette-2.png"
-                alt="Four palettes from the photo.palette app"
+                src="/images/portfolio-redo.jpg"
+                alt="A screen grab of kelsey kuno home page."
                 width={1}
                 height={1}
                 priority
@@ -28,7 +28,7 @@ const ProjectPage = () => {
             </Link>
             <p className="date">Development & Design</p>
             <h5>Portfolio Website</h5>
-            <h6>A full CRUD web application (Student Solo Project)</h6>
+            <h6>A portfolio redesign & build using modern dev tools</h6>
             <Link className="primary-link" href="/projects/portfolio-website">
               Read More
             </Link>

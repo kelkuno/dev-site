@@ -9,6 +9,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+.profile-img {
+  max-width: 400px;
+}
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {

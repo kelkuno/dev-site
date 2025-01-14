@@ -11,7 +11,7 @@ const PortfolioWebsite = () => {
             <div className={projectStyles["hero-container"]}>
               <h1>Portfolio Website</h1>
               <p className="lg-title">
-                A full CRUD web application (Student Solo Project)
+                A portfolio redesign & build using modern dev tools
               </p>
               <div className={projectStyles["skill-wrapper"]}>
                 <p className={projectStyles["project-skill"]}>
@@ -31,10 +31,10 @@ const PortfolioWebsite = () => {
               </div>
               <div className={`${projectStyles["project-img"]} mt-4 mt-b`}>
                 <Image
-                  src="/images/photo-palette-4.png"
-                  alt="A screenshot of 4 custom palettes made on Photo.palette app"
-                  width={1218}
-                  height={429}
+                  src="/images/portfolio-home-cover.png"
+                  alt="A screenshot Kelsey kuno portfolio"
+                  width={1878}
+                  height={745}
                   layout="responsive"
                   priority
                 />

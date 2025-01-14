@@ -303,8 +303,7 @@ ul {
     line-height: 3rem;
     margin: 2rem 0;
   }
-  h2,
-  .skill-swap {
+  h2 {
     font-size: 2.368rem;
     line-height: 2.75rem;
   }
@@ -326,5 +325,9 @@ ul {
   }
   .section-gap {
     margin: 2rem 0;
+  }
+  .skill-swap {
+    font-size: 1.776rem;
+    line-height: 2rem;
   }
 }

@@ -48,14 +48,14 @@ const AboutPage = () => {
             </Link>
             . Since 2019, I have operated a creative business offering services
             that span from{" "}
-            <Link
-              href="#"
+            <a
+              href="https://www.kelseykuno.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="copy-link"
             >
               abstract painting
-            </Link>{" "}
+            </a>{" "}
             to graphic and motion design, as well as website and email
             development.
           </p>

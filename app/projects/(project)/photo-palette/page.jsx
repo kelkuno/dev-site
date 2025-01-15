@@ -25,6 +25,9 @@ const PhotoPalette = () => {
                   Backend Development
                 </p>
                 <p className={projectStyles["project-skill"]}>
+                  State Management
+                </p>
+                <p className={projectStyles["project-skill"]}>
                   Database Management
                 </p>
                 <p className={projectStyles["project-skill"]}>RESTful APIs</p>

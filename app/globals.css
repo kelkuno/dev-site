@@ -7,17 +7,11 @@
   /* colors */
   --white: #ffffff;
   --black: #1c1c1c;
-  /* --black: #000000; */
-  /* --black: #ffff00; */
   --gray: #5e5e5e;
   --light-gray: #b7b4b4;
   --orange: #ff432a;
-
   --yellow: #f1ff00;
-  --blue: #17029f;
-  /* --paper: #fce1fc; */
   --paper: #edf1f2;
-  /* --paper: #ffffff; */
 
   /* fonts */
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",

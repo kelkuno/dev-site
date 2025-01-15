@@ -67,6 +67,18 @@
 .project-copy {
   padding: 0 6rem;
 }
+.project-lists {
+  padding: 0 6rem;
+  margin: 0;
+  list-style: none;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin: 1rem 0 2rem;
+}
+.important-text {
+  font-weight: bold;
+  color: var(--orange);
+}
 .project-important-copy {
   padding: 0 6rem;
 }
@@ -139,7 +151,8 @@
     width: 100%;
     order: 1;
   }
-  .project-copy {
+  .project-copy,
+  .project-lists {
     padding: 0;
   }
   .project-important-copy {

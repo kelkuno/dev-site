@@ -19,6 +19,9 @@ const AboutPage = () => {
           <h2>
             Creative Developer;<br></br> Digital Designer.
           </h2>
+          <h6 className={styles["bio-line-text"]}>
+            A curious creative who embraces complexity.
+          </h6>
         </div>
         <div className={styles["about-content"]}>
           <p>Hi, my name is Kelsey. Thanks for stopping by!</p>

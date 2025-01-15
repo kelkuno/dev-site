@@ -13,6 +13,10 @@
   /* max-width: 400px; */
   border: solid 3px var(--black);
 }
+.bio-line-text {
+  font-size: 1.776rem;
+  line-height: 2rem;
+}
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {

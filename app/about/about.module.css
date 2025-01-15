@@ -14,8 +14,9 @@
   border: solid 3px var(--black);
 }
 .bio-line-text {
-  font-size: 1.776rem;
+  font-size: 1.33rem;
   line-height: 2rem;
+  font-weight: 700;
 }
 
 /* Tablet and Smaller Desktop */

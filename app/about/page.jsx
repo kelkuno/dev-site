@@ -9,7 +9,7 @@ const AboutPage = () => {
       <div className={styles["about-page-wrapper"]}>
         <div className={styles["image-container"]}>
           <Image
-            src="/images/kelsey-headshot-building.jpg"
+            src="/images/kelsey-headshot-edited.jpg"
             alt="Kelsey Kuno on top of Brooklyn Bridge."
             width={1}
             height={1}

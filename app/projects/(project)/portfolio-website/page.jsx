@@ -167,6 +167,16 @@ const PortfolioWebsite = () => {
                 to set the type scale, which I now love and will be using in
                 future projects.
               </p>
+              <div className={`${projectStyles["project-img"]} mt-4 mb-4`}>
+                <Image
+                  src="/images/portfolio-wireframes.png"
+                  alt="Kelsey Kuno portfolio wireframes"
+                  width={1258}
+                  height={534}
+                  layout="responsive"
+                  priority
+                />
+              </div>
               <div
                 className={`${projectStyles["project-row"]} ${projectStyles["two-col"]}`}
               >
@@ -181,8 +191,8 @@ const PortfolioWebsite = () => {
                 </div>
                 <div className={projectStyles["project-col"]}>
                   <Image
-                    src="/images/portfolio-wireframes-square.png"
-                    alt="Screen shots of Kelsey's portfolio wire frame pages."
+                    src="/images/kelsey-headshot-edited.jpg"
+                    alt="Kelsey Kuno profile with painted effect."
                     width={1}
                     height={1}
                     layout="responsive"

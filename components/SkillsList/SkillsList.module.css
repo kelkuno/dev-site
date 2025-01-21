@@ -1,0 +1,30 @@
+.skill-swap-container {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  justify-content: space-between;
+}
+.skill-swap-btn {
+  width: 1.5rem;
+}
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .skill-swap-container {
+    width: 100%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .skill-swap-container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .hire-me {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .skill-swap-btn {
+    width: 1rem;
+  }
+}

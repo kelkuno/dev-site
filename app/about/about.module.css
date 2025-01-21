@@ -1,0 +1,37 @@
+.about-content {
+  width: 50%;
+  padding: 2rem;
+}
+.image-container {
+  width: 50%;
+}
+.about-page-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile-img {
+  /* max-width: 400px; */
+  border: solid 3px var(--black);
+}
+.bio-line-text {
+  font-size: 1.33rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .about-content {
+    /* border: solid 2px blue; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  .image-container {
+    width: 100%;
+  }
+}

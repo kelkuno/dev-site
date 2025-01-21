@@ -1,0 +1,53 @@
+.project-page-wrapper .hero-container {
+  /* border: solid 1px pink; */
+  /* text-align: center; */
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  z-index: 10;
+}
+.projects-col {
+  padding-bottom: 2rem;
+}
+.project-page-wrapper .hero-text {
+  /* width: 100%; */
+  position: relative;
+  z-index: 1000;
+  /* border: solid 2px red; */
+  background-color: var(--paper);
+}
+
+.project-page-wrapper .grid-container {
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  border-right: solid 1px var(--light-gray);
+  border-bottom: solid 1px var(--light-gray);
+}
+.x-sml-title {
+  /* text-transform: uppercase;
+  letter-spacing: 0.06rem; */
+
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  color: var(--black);
+  margin: 0;
+  background-color: var(--lilac);
+  padding: 0.25rem;
+}
+.projects-skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  /* justify-content: center; */
+}
+.portfolio-cover-img {
+  border: solid 1px var(--orange);
+}

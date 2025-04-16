@@ -5,75 +5,51 @@ import Link from "next/link";
 const AboutPage = () => {
   return (
     <div className="container">
-      <h1>About</h1>
-      <div className={styles["about-page-wrapper"]}>
-        <div className={styles["image-container"]}>
-          <Image
-            src="/images/kelsey-headshot-edited.jpg"
-            alt="Kelsey Kuno on top of Brooklyn Bridge."
-            width={1}
-            height={1}
-            layout="responsive"
-            className={styles["profile-img"]}
-          />
-          <h2>
-            Creative Developer;<br></br> Digital Designer.
-          </h2>
-          <h6 className={styles["bio-line-text"]}>
-            A curious creative who embraces complexity.
-          </h6>
-        </div>
+      <div className={styles["about-wrapper"]}>
         <div className={styles["about-content"]}>
-          <p>Hi, my name is Kelsey. Thanks for stopping by!</p>
-          <p>
-            I am a visual artist and a web developer, who is a recent Brooklyn
-            transplant. I thrive on being a bridge between creative and digital
-            teams, helping translate ideas and goals across disciplines that
-            don’t always speak the same language. With a deep understanding and
-            genuine interest in both design and development, I bring unique
-            value to digital projects.
+          <h1>About</h1>
+          <div className={styles["about-img"]}>
+            <Image
+              src="/images/kelsey-headshot-edited.jpg"
+              alt="Kelsey Kuno on top of Brooklyn Bridge."
+              width={1}
+              height={1}
+              layout="responsive"
+              className={styles["profile-img"]}
+            />
+          </div>
+          <h2>Creative Developer & Visual Designer</h2>
+          <p className={styles["bio-line-text"]}>
+            A curious creative who embraces complexity.
           </p>
-          <h5>My Art side:</h5>
+          <h2> Hi, I'm Kelsey.</h2>
           <p>
-            I am a visual artist with a passion for creativity in various forms.
-            Holding a Masters in Graphic Arts and Web Design from the
-            Minneapolis College of Art & Design, I consider myself a design
-            generalist with a wide range of interests across different
-            disciplines. Motion design holds a special fascination for me, as
-            showcased in some of my earlier{" "}
-            <Link
-              href="/projects/motion-design"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="copy-link"
-            >
-              animation experiments
-            </Link>
-            . Since 2019, I have operated a creative business offering services
-            that span from{" "}
-            <a
-              href="https://www.kelseykuno.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="copy-link"
-            >
-              abstract painting
-            </a>{" "}
-            to graphic and motion design, as well as website and email
-            development.
+            I'm a visual artist and web developer, recently relocated to
+            Brooklyn. I thrive as a bridge between creative and digital teams,
+            translating ideas across disciplines that often speak different
+            languages. With a deep understanding and genuine interest in both
+            design and development, I bring unique value to digital projects.
           </p>
-          <h5>My Technical Side:</h5>
+          <h2>My Artistic Side</h2>
           <p>
-            I took my first web development course during art school and I knew
-            I wanted to learn more. Web development drew me in because I wanted
-            more tools to be able to build out creative digital projects exactly
-            how I envisioned them. In 2022 I deepened my technical education
-            through completing a full stack software engineer bootcamp. Since
-            then, I gained practical experience working as a web developer on a
-            small digital production team at an advertising agency in Minnesota.
-            I am currently freelancing in web design and development, helping
-            clients bring their digital projects to life with creative and
-            functional solutions.
+            I hold a Master's in Graphic Arts and Web Design from the
+            Minneapolis College of Art & Design. As a design generalist, I'm
+            passionate about various creative forms, with a particular
+            fascination for motion design. Since 2019, I've operated a creative
+            business offering services ranging from abstract painting to graphic
+            and motion design, as well as website and email development.
+          </p>
+          <h2>My Technical Side:</h2>
+          <p>
+            My journey into web development began during art school, where I
+            took my first course and was immediately drawn to the possibilities
+            it offered for bringing creative digital projects to life. In 2022,
+            I deepened my technical skills by completing a full-stack software
+            engineering bootcamp. Since then, I've gained practical experience
+            working as a web developer on a small digital production team at an
+            advertising agency in Minnesota. Currently, I freelance in web
+            design and development, helping clients bring their digital projects
+            to life with creative and functional solutions.
           </p>
           <div>
             <a

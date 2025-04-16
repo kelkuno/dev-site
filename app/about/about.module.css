@@ -1,13 +1,12 @@
-.about-content {
-  width: 50%;
-  padding: 2rem;
-}
-.image-container {
-  width: 50%;
-}
-.about-page-wrapper {
+.about-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+}
+.about-content {
+  max-width: 800px;
+}
+.about-img {
+  max-width: 300px;
 }
 .profile-img {
   /* max-width: 400px; */

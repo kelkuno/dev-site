@@ -28,6 +28,9 @@
     font-size: 2.5rem;
     line-height: 2.5rem;
   }
+  .white-space {
+    white-space: normal;
+  }
 }
 
 /* Tablet and Smaller Desktop */

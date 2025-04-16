@@ -39,7 +39,7 @@ const AboutPage = () => {
             business offering services ranging from abstract painting to graphic
             and motion design, as well as website and email development.
           </p>
-          <h2>My Technical Side:</h2>
+          <h2>My Technical Side</h2>
           <p>
             My journey into web development began during art school, where I
             took my first course and was immediately drawn to the possibilities

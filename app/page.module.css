@@ -1,8 +1,26 @@
-.drawing-wrapper {
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 4em 0;
+}
+.center-text {
+  text-align: center;
+}
+
+.home-content > * {
   width: 100%;
 }
-.home-content h1 {
-  display: none;
+.home-content p {
+  max-width: 600px;
+  margin: 0;
+}
+.white-space {
+  white-space: nowrap;
+}
+.drawing-wrapper {
+  width: 100%;
 }
 /* Mobile */
 @media (max-width: 700px) {

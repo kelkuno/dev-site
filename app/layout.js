@@ -21,7 +21,7 @@ const nunito_sans_init = Nunito_Sans({
 
 const josefin_sans_init = Josefin_Sans({
   subsets: ["latin"],
-  weight: ["100", "200", "700"],
+  weight: ["100", "200", "500", "600", "700"],
   style: ["normal", "italic"],
   variable: "--font-josefin_sans",
 });

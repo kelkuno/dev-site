@@ -6,10 +6,8 @@ import Image from "next/image";
 import styles from "./MainNav.module.css";
 
 const links = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
   { href: "/projects", label: "Projects" },
-  { href: "/blog", label: "Blog" },
+  { href: "/about", label: "About" },
 ];
 
 const MainNav = () => {
@@ -32,15 +30,17 @@ const MainNav = () => {
     >
       <div className={styles["nav-wrapper"]}>
         <div className={styles["logo-wrapper"]}>
-          <Image
-            src="/images/kk-logo.svg"
-            alt="Kelsey Kuno logo"
-            className="main-nav--logo"
-            width={185}
-            height={85}
-            layout="responsive"
-            priority
-          />
+          <Link href="/">
+            <Image
+              src="/images/kk-logo.svg"
+              alt="Kelsey Kuno logo"
+              className="main-nav--logo"
+              width={185}
+              height={85}
+              layout="responsive"
+              priority
+            />
+          </Link>
         </div>
         <nav className={styles["primary-navigation"]} id="primary-navigation">
           <ul className={styles["nav-row"]} aria-label="Primary" role="list">

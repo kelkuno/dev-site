@@ -51,17 +51,6 @@ const FooterNav = () => {
       <div
         className={`${styles["footer-col-wrapper"]} ${styles["primary-content"]}`}
       >
-        <nav aria-label="footer-navigation" className={styles["footer-pages"]}>
-          <ul>
-            {links.map((link) => (
-              <li key={link.href}>
-                <Link className={styles["second-nav-links"]} href={link.href}>
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
         <div className={styles["footer-socials"]}>
           {socialLinks.map((social) => (
             <Link

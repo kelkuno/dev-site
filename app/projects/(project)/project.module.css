@@ -13,21 +13,20 @@
 .skill-wrapper {
   display: flex;
   margin: 2rem auto;
-  width: 60%;
+  width: 85%;
   gap: 2rem;
   justify-content: center;
   flex-wrap: wrap;
 }
 .project-skill {
   font-family: var(--font-nunito_sans);
-  color: var(--black);
-  background-color: var(--paper);
-  border: solid 2px var(--black);
+  color: var(--green);
+  background-color: var(--white);
+  border: solid 2px var(--green);
   font-size: 1rem;
   line-height: 1.125rem;
-  font-weight: 700;
-  padding: 0.5rem 2rem;
-  border-radius: 100px;
+  font-weight: 600;
+  padding: 0.25rem 1rem;
   display: inline-block;
   margin: 0;
 }
@@ -44,7 +43,7 @@
   flex-wrap: wrap;
 }
 .tech-section {
-  width: 25%;
+  width: 30%;
   padding: 0 1rem;
 }
 .tech-list {
@@ -60,7 +59,7 @@
   padding: 0.25rem 1rem;
 }
 .project-content-wrapper {
-  width: 75%;
+  width: 70%;
   overflow-y: auto;
 }
 

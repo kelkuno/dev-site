@@ -16,6 +16,24 @@ const ProjectPage = () => {
       <section className="container">
         <div className="row">
           <div className={`col ${styles["projects-col"]}`}>
+            <Link href="/projects/comedy-website">
+              <Image
+                src="/images/ali-website-cover.png"
+                alt="A screen grab of Ali Sultan Comedy website."
+                width={1}
+                height={1}
+                priority
+                layout="responsive"
+              />
+            </Link>
+            <p className="date">Development & Design</p>
+            <h5>Stand-Up, Styled Up</h5>
+            <h6>A purposeful redesign and custom WordPress build</h6>
+            <Link className="primary-link" href="/projects/comedy-website">
+              Read More
+            </Link>
+          </div>
+          <div className={`col ${styles["projects-col"]}`}>
             <Link href="/projects/portfolio-website">
               <Image
                 src="/images/portfolio-redo.jpg"
